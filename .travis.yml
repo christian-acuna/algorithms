@@ -1,0 +1,19 @@
+language: ruby
+cache: bundler
+
+rvm:
+  - 2.2.0
+  - 2.0.0
+  - 1.9.3
+
+script: 'bundle exec rake spec'
+
+bundler_args: --without development
+#
+# branches:
+#   only:
+#     - master
+
+notifications:
+  email:
+    - cacuna0828@gmail.com
