@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby '2.2.5'
 
 group :test do
   gem 'rake'
@@ -10,6 +9,7 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'pry'
+  gem 'byebug'
 
   # Adds debugging steps to Pry
   # continue, step, next
