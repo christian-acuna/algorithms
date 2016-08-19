@@ -1,4 +1,3 @@
-require "byebug"
 class BubbleSort
   def sort(array)
     iterations = 0
