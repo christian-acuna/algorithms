@@ -9,6 +9,7 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'pry'
+  gem 'byebug'
 
   # Adds debugging steps to Pry
   # continue, step, next
