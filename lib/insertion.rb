@@ -1,5 +1,5 @@
 class Insertion
-  def sort(array)
+  def non_decreasing(array)
     current_element_index = 1
     while current_element_index < array.length
       key = array[current_element_index]
