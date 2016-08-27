@@ -1,4 +1,6 @@
+require "byebug"
 def factorial(n)
+  debugger
   if n == 1
     1
   else
@@ -7,4 +9,4 @@ def factorial(n)
 end
 
 p factorial(5)
-p factorial(4)
+# p factorial(4)

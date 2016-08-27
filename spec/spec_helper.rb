@@ -4,3 +4,4 @@ require 'pry' if ENV['APP_ENV'] == 'debug' # add `binding.pry` wherever you need
 require 'bubble'
 require 'insertion'
 require 'binary'
+require 'quick_sort'
